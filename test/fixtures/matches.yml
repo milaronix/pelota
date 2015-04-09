@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: 2015-04-08 23:23:06
+  phase_id: 
+  status: MyString
+  team_id: 
+
+two:
+  date: 2015-04-08 23:23:06
+  phase_id: 
+  status: MyString
+  team_id: 
