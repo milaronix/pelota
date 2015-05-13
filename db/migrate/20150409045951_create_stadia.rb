@@ -6,7 +6,6 @@ class CreateStadia < ActiveRecord::Migration
     	t.timestamps :d_construct
     	t.integer :capacity
     	t.string :photo_url
-
       t.timestamps null: false
     end
   end
