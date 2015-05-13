@@ -6,4 +6,11 @@ class Match < ActiveRecord::Base
   belongs_to :visitor_team, :class_name => 'Team'
   belongs_to :winner, :class_name => 'Team'
   belongs_to :loser, :class_name => 'Team'
+
+  belongs_to :local_team, :class_name => Team
+  belongs_to :visitor_team, :class_name => Team
+  belongs_to :winner, :class_name => Team
+  belongs_to :loser, :class_name => Team
+  belongs_to :group, :class_name => Group
+  belongs_to :stadium, :class_name => Stadium  
 end

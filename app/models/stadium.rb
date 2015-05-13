@@ -1,4 +1,6 @@
 class Stadium < ActiveRecord::Base
+	has_many :matches
+	
 	validates :name, presence: true, uniqueness: true
       validates :city, presence: true, uniqueness: true
       validates :d_construct, presence: true
